@@ -83,6 +83,10 @@
    	display: none;
 }
 
+#flip {
+    cursor: pointer;
+}
+
 .bg-pan-left {
 	-webkit-animation: bg-pan-left 8s both;
 	        animation: bg-pan-left 8s both;
