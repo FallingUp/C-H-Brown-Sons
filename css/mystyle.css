@@ -54,6 +54,15 @@
 	opacity: 0.65;
 }
 
+.bgimgglebe {
+    background-image: url("../assets/glebetill.JPG");
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	opacity: 0.65;
+}
+
 .title {
 	font-family: "Old Standard TT";
     position: relative;
