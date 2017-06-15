@@ -47,8 +47,53 @@
 
 .bgimg3 {
     background-image: url("../assets/tombrown1.jpg");
-    min-height: 900px;
+    min-height: 245px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	opacity: 0.65;
+}
+
+.title {
+	font-family: "Old Standard TT";
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    z-index: 10;
+    font-size: 77px
+}
+
+.focus-in-expand {
+	-webkit-animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4s both;
+	        animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4s both;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+	padding: 50px;
+   	display: none;
+}
+
+.bg-pan-left {
+	-webkit-animation: bg-pan-left 8s both;
+	        animation: bg-pan-left 8s both;
+}
+
+.kenburns-bottom {
+	-webkit-animation: kenburns-bottom 8s ease-out both;
+	        animation: kenburns-bottom 8s ease-out both;
+}
+
+.bg-pan-top {
+	-webkit-animation: bg-pan-top 4s both;
+	        animation: bg-pan-top 4s both;
 }
